@@ -3,7 +3,7 @@ var scrollY;
 $.fn.readmytweet = function(options) { 
 	//Set default settings
 	var settings = {
-		'color'         : 'black',
+		'color'         : 'black', //now also available in 'blue' and 'white'
 		'search'		: 'from:raffi_s',
 		'user'			: 0,
 		'width'			: 0,
