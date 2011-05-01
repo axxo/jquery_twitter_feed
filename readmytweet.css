@@ -1,0 +1,192 @@
+/* BLACK
+----------------------------------------------------------------------------------------------------*/
+.rmtwrapper.black {
+	background: url(black.png) repeat-x 0 -60px;
+}
+.rmtwrapper.black .rmtlogo {
+	background: url(black.png) no-repeat 0 0;
+}
+.rmtwrapper.black .rmtfadeleft {
+	background: url(black.png) no-repeat 0 -120px;
+}
+.rmtwrapper.black .rmtfaderight {
+	background: url(black.png) no-repeat -85px -120px;
+}
+.rmtwrapper.black .rmtname a {
+	color: #eee;
+}
+.rmtwrapper.black .rmtdate {
+	color: #5cd6fc;
+}
+.rmtwrapper.black .rmtmessage {
+	color: #aaa;
+}
+.rmtwrapper.black .rmtmessage a {
+	color: #ccc;
+}
+
+/* WHITE
+----------------------------------------------------------------------------------------------------*/
+.rmtwrapper.white {
+	background: url(white.png) repeat-x 0 -60px;
+}
+.rmtwrapper.white .rmtlogo {
+	background: url(white.png) no-repeat 0 0;
+}
+.rmtwrapper.white .rmtfadeleft {
+	background: url(white.png) no-repeat 0 -120px;
+}
+.rmtwrapper.white .rmtfaderight {
+	background: url(white.png) no-repeat -85px -120px;
+}
+.rmtwrapper.white .rmtname a {
+	color: #333;
+}
+.rmtwrapper.white .rmtdate {
+	color: #339cd5;
+}
+.rmtwrapper.white .rmtmessage {
+	color: #666;
+}
+.rmtwrapper.white .rmtmessage a {
+	color: #444;
+}
+
+/* BLUE
+----------------------------------------------------------------------------------------------------*/
+.rmtwrapper.blue {
+	background: url(blue.png) repeat-x 0 -60px;
+}
+.rmtwrapper.blue .rmtlogo {
+	background: url(blue.png) no-repeat 0 0;
+}
+.rmtwrapper.blue .rmtfadeleft {
+	background: url(blue.png) no-repeat 0 -120px;
+}
+.rmtwrapper.blue .rmtfaderight {
+	background: url(blue.png) no-repeat -85px -120px;
+}
+.rmtwrapper.blue .rmtname a {
+	color: #fff;
+}
+.rmtwrapper.blue .rmtdate {
+	color: #339cd5;
+}
+.rmtwrapper.blue .rmtmessage {
+	color: #516165;
+}
+.rmtwrapper.blue .rmtmessage a {
+	color: #50737b;
+}
+
+
+/* ELEMENTS
+----------------------------------------------------------------------------------------------------*/
+.rmtwrapper {
+	font-family: Helvetica Neue,Arial,Helvetica,'Liberation Sans',FreeSans,sans-serif;
+	font-size: 11px;
+	height: 60px;
+	
+	/* CSS 3 ROUNDED CORNERS
+	--------------------------*/
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.rmtwrapper .rmtlogo {
+	float: left;
+	width: 170px;
+	height: 60px;
+	
+	/* CSS 3 ROUNDED CORNERS
+	--------------------------*/
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.rmtwrapper .rmtstage {
+	position: relative;
+	overflow: hidden;
+	float: left;
+	width: 630px;
+	height: 60px;
+}
+.rmtwrapper .rmtfadeleft {
+	position: absolute;
+	z-index: 2;
+	width: 85px;
+	height: 60px;
+}
+.rmtwrapper .rmtfaderight {
+	position: absolute;
+	z-index: 2;
+	margin: 0 0 0 535px;
+	width: 85px;
+	height: 60px;
+	
+	/* CSS 3 ROUNDED CORNERS
+	--------------------------*/
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.rmtwrapper .rmtscroller {
+	width: 999999px;
+	height: 60px;
+	position: absolute;
+}
+.rmtwrapper .rmttweet {
+	float: left;
+	height: 60px;
+}
+.rmtwrapper .rmtavatar {
+	float: left;
+	padding: 12px 10px 0 0;
+}
+.rmtwrapper .rmtavatar img {
+	width: 35px;
+	height: 35px;
+	border: 0;
+	/* CSS 3 ROUNDED CORNERS
+	--------------------------*/
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.rmtwrapper .rmtinfo {
+	float: left;
+	padding: 14px 7px 0 0;
+}
+.rmtwrapper .rmttop {
+	height: 18px;
+}
+.rmtwrapper .rmtname {
+	float: left;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding-right: 7px;
+}
+.rmtwrapper .rmtname a {
+	text-decoration: none;
+}
+.rmtwrapper .rmtname a:hover {
+	text-decoration: underline;
+}
+.rmtwrapper .rmtdate {
+	float: left;
+	font-weight: normal;
+	font-size: 10px;
+	padding: 3px 15px 4px 0;
+}
+.rmtwrapper .rmtmessage {
+	padding-right: 15px;
+	clear: both;
+}
+.rmtwrapper .rmtscroller .rmttweet .rmtmessage a {
+	text-decoration: none;
+}
+.rmtwrapper .rmtscroller .rmttweet .rmtmessage a:hover {
+	text-decoration: underline;
+}
