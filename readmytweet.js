@@ -5,7 +5,7 @@ $.fn.readmytweet = function(options) {
 	var settings = {
 		'color'         : 'black', //now also available in 'blue' and 'white'
 		'search'		: 'from:raffi_s',
-		'user'			: 0,
+		'user'			: raffi_s,
 		'width'			: 0,
 		'tweets'		: 20,
 		'speed'			: 20
